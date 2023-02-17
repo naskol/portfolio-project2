@@ -1,3 +1,39 @@
+:root {
+  --primary-color: rgba(129, 40, 212, 0.945);
+  --secondary-color: #552e5a;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: #f6e198;
+  padding: 100px 20px;
+}
+
 h1 {
-  color: blueviolet;
+  color: var(--primary-color);
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+}
+
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.btn {
+  color: var(--secondary-color);
 }
