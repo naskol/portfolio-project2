@@ -6,7 +6,7 @@
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background: #f5e4a7;
+  background: #ecffa3;
   padding: 100px 20px;
 }
 
@@ -51,4 +51,21 @@ p {
   border: 1px solid;
   border-radius: 5px;
   padding: 10px 23px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  body {
+    padding: 30px 20px;
+  }
+  .btn-branding-outline {
+  font-size: 15px;
 }
