@@ -6,7 +6,7 @@
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background: #f6e198;
+  background: #f5e4a7;
   padding: 100px 20px;
 }
 
@@ -30,10 +30,25 @@ h2 {
   font-weight: 400;
 }
 
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
 .hero {
   padding: 40px;
 }
 
 .btn {
   color: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  color: var(--secondary-color);
+  background: #e7b6ee;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 23px;
 }
