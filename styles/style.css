@@ -1,12 +1,13 @@
 :root {
   --primary-color: rgba(129, 40, 212, 0.945);
   --secondary-color: #552e5a;
+  --background-color: #ecffa3;
 }
 
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background: #ecffa3;
+  background: var(--background-color);
   padding: 20px 20px;
 }
 
@@ -36,23 +37,6 @@ p {
   line-height: 1.5;
 }
 
-.hero {
-  padding: 30px;
-}
-
-.btn {
-  color: var(--secondary-color);
-}
-
-.btn-branding-outline {
-  font-size: 18px;
-  color: var(--secondary-color);
-  background: #e7b6ee;
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 10px 23px;
-}
-
 nav {
   padding: 10px 0;
 }
@@ -72,6 +56,42 @@ nav a {
 nav a:hover {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.social-link {
+  background: var(--background-color);
+  color: var(--primary-color);
+  font-size: 20px;
+  border: 2px solid var(--background-color);
+  border-radius: 50% 20% / 10% 40%;
+  padding: 10px 14px;
+  margin: 20px;
+}
+
+.social-link:hover {
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+
+.hero {
+  padding: 30px;
+}
+
+.btn {
+  color: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  color: var(--secondary-color);
+  background: #e7b6ee;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 23px;
 }
 
 .active {
